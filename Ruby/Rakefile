@@ -1,0 +1,9 @@
+require 'rspec/core/rake_task'
+
+RSpec::Core::RakeTask.new(:spec)
+
+task :run do
+  ruby 'lib/main.rb'
+end
+
+task default: %w[spec run]

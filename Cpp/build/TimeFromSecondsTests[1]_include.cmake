@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/maxim/Documents/UQAM_Cours/MGL7460_Maintenance/Projet2/Cpp/build/TimeFromSecondsTests[1]_tests.cmake")
+  include("C:/Users/maxim/Documents/UQAM_Cours/MGL7460_Maintenance/Projet2/Cpp/build/TimeFromSecondsTests[1]_tests.cmake")
+else()
+  add_test(TimeFromSecondsTests_NOT_BUILT TimeFromSecondsTests_NOT_BUILT)
+endif()
